@@ -1,0 +1,31 @@
+.first-web {
+    min-height: 515px;
+    padding: 82px 0 64px 0;
+    &_img {
+        display: block;
+        margin: 0 auto;
+    }
+    &_header {
+        color: #252525;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 37px;
+    }
+    &_date {
+        color: $submain_color;
+        font-size: 36px;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &_faster {
+        color: #4a4a4a;
+        font-size: 23px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 25px;
+    }
+}

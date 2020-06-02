@@ -1,0 +1,29 @@
+.footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+    text-align: center;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    &_support {
+        color: #888888;
+        text-decoration: underline;
+    }
+    &_dash {
+        display: inline;
+    }
+    &_confidential {
+        color: #888888;
+        text-decoration: underline;
+    }
+    &_contact-us {
+        a {
+            text-decoration: none;
+        }
+        &_phone {
+            color: #888888;
+            text-decoration: none;
+        }
+    }
+}

@@ -2,7 +2,25 @@
     padding: 102px 0 107px 0;
     min-height: 550px;
     background: url('../img/bg/woman_bg.jpg') bottom left no-repeat;
-    .what-opt {
-        
+    .content {
+        .what-opt {
+            padding-left: 389px;
+            &_header {
+                color: $submain-color;
+                font-size: 30px;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            &_descr {
+                margin-top: 25px;
+                color: #4a4a4a;
+                font-size: 17px;
+                font-weight: 300;
+                line-height: 27px;
+                .what-opt_seo {
+                    font-weight: 700;
+                }
+            }
+        }
     }
 }

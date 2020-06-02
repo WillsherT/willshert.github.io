@@ -1,0 +1,48 @@
+.final {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/final_learn_bg.jpg') center center/cover no-repeat;
+    .content {
+        .final_header {
+            color: #efefef;
+            font-size: 30px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .border {
+            display: block;
+            width: 217px;
+            height: 4px;
+            background-color: $main_color;
+            margin: 0 auto;
+            margin-top: 23px;
+        }
+        .final_wrapper {
+            margin-top: 41px;
+            display: flex;
+            justify-content: space-between;
+            .final_item {
+                width: 204px;
+                .final_round {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                    width: 115px;
+                    height: 115px;
+                    background-color: $orb_color;
+                    border-radius: 100%;
+                }
+                .final_text {
+                    margin-top: 25px;
+                    text-align: center;
+                    color: #efefef;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
